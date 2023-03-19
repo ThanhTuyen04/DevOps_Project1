@@ -1,2 +1,2 @@
 FROM nginx
-COPY website /usr/share/nginx/html
+COPY build-thanhtuyen /usr/share/nginx/html
