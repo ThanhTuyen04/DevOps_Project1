@@ -1,5 +1,7 @@
-FROM  centos:latest
+FROM  centos:lasted
 
+dnf -y --disablerepo '*' --enablerepo=extras swap centos-linux-repos centos-stream-repos
+dnf -y distro-sync
 RUN yum install -y httpd \
  zip\
  unzip
