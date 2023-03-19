@@ -14,8 +14,6 @@ EXPOSE 80
 
 # FROM  centos:latest
 # MAINTAINER vikashashoke@gmail.com
-# RUN dnf -y --disablerepo '*' --enablerepo=extras swap centos-linux-repos centos-stream-repos
-# RUN dnf -y distro-sync
 # RUN yum install -y httpd \
 #  zip\
 #  unzip
