@@ -1,5 +1,5 @@
 node{
-    stage('git checkout'){
+    stage('git check'){
         git 'https://github.com/lavi1205/Jenkins-Docker-Project.git'
     }
     stage('docker build image'){
